@@ -1,19 +1,18 @@
-body {
+* {
     padding: 0px;
     margin: 0px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 :root {
-    --coloDeTitulos: #4D545B;
-    --colorDeTextos: #ABAEB1;
-    --colorDeBoton1: #24BCA5;
-    --colorDeBoton2: #6273FF;
+    --coloDeTitulos: #4d545b;
+    --colorDeTextos: #abaeb1;
+    --colorDeBoton1: #24bca5;
+    --colorDeBoton2: #6273ff;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .header {
@@ -65,6 +64,10 @@ body {
     font-size: 17px;
     border-radius: 20px;
     border: none;
+}
+
+.button {
+    cursor: pointer;
 }
 
 .green {
@@ -261,4 +264,71 @@ body {
 .extras-buttons {
     width: 100%;
     text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f5f6f8;
+}
+
+.footer-logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-references {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-references ul {
+    width: 20%;
+    list-style: none;
+}
+
+.footer-references ul li {
+    margin: 20px 0px;
+}
+
+.footer-references ul li a {
+    text-decoration: none;
+    color: var(--colorDeTextos);
+}
+
+.footer-redes {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-redes img {
+    margin: 0px 10px;
+}
+
+@media (max-width: 1024px) {
+    .main-content-1-img {
+        flex-basis: 100%;
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    .main-content-1-info {
+        flex-basis: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .main-content-1-info-1 {
+        width: 100%;
+    }
 }
