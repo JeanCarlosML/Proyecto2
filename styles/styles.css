@@ -1,0 +1,110 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+:root {
+    --coloDeTitulos: #4D545B;
+    --colorDeTextos: #ABAEB1;
+    --colorDeBoton1: #24BCA5;
+    --colorDeBoton2: #6273FF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.header-logo {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+
+.header-principal {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-principal h1 {
+    width: 100%;
+    font-size: 38px;
+    color: var(--coloDeTitulos);
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.header-principal p {
+    width: 50%;
+    font-size: 19px;
+    color: var(--colorDeTextos);
+}
+
+.header-principal-buttons {
+    flex-basis: 100%;
+    padding-top: 40px;
+}
+
+.button {
+    color: white;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+}
+
+.green {
+    background-color: var(--colorDeBoton1);
+    box-shadow: 1px 1px 5px var(--colorDeBoton1);
+}
+
+.blue {
+    background-color: var(--colorDeBoton2);
+    box-shadow: 1px 1px 5px var(--colorDeBoton2);
+}
+
+.main {
+    padding-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main-info-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.main-info-1 h2 {
+    color: var(--coloDeTitulos);
+    font-size: 28px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.main-info-1 p {
+    color: var(--colorDeTextos);
+    flex-basis: 60%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+}
