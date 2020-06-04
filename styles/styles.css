@@ -199,3 +199,66 @@ body {
     text-align: center;
     width: 40%;
 }
+
+.section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-article {
+    width: 33%;
+    text-align: center;
+}
+
+.section-article img {
+    padding: 20px 0px;
+}
+
+.section-article h3 {
+    color: var(--coloDeTitulos);
+}
+
+.section-article p {
+    color: var(--colorDeTextos);
+    line-height: 28px;
+}
+
+.marks {
+    padding: 240px 0px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.extras {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.extras h2 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    color: var(--coloDeTitulos);
+}
+
+.extras p {
+    width: 60%;
+    text-align: center;
+    color: var(--colorDeTextos);
+    line-height: 27px;
+    padding-bottom: 60px;
+}
+
+.extras-buttons {
+    width: 100%;
+    text-align: center;
+}
